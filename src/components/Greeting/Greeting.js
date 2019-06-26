@@ -6,7 +6,7 @@ class Greeting extends Component {
   
   render() {
     return (
-      <section className='section greeting'>
+      <section className='section greeting' id='greeting'>
         <h1 id='intro'>
           <span id='hi'>Hi,</span>
           <br />

@@ -28,3 +28,8 @@
   margin-left: 10px;
   /* background-color: white; */
 }
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+}
