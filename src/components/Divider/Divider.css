@@ -1,0 +1,14 @@
+.divider {
+  display: grid;
+  height: 20px;
+}
+
+.divider-line{
+  height: 20px;
+  background-color: white;
+  grid-column: 2/5;
+}
+
+.greeting-line {
+  grid-template-columns: 30% 20px 1fr 20px 50%;
+}

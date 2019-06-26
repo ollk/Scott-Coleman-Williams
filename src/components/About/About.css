@@ -1,0 +1,19 @@
+.about {
+  color: white;
+  grid-template-columns: 30% 20px 1fr;
+}
+
+.about-header {
+  grid-column: 1/2;
+  text-align: right;
+  padding: 20px;
+  margin: 0;
+  font-size: 2em;
+}
+
+.about-content {
+  grid-column: 3/4;
+  padding: 20px;
+  margin: 0;
+  font-size: 1.3em;
+}
