@@ -8,8 +8,8 @@
   text-align: left;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin: 0;
   font-size: 2em;
 }
@@ -19,12 +19,12 @@
   grid-row: 1/2;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: right;
 }
 
-i {
+.skills-content i {
   font-size: 7em;
   margin: 40px;
 }

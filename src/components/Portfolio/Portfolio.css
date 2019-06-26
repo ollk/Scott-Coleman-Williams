@@ -1,10 +1,10 @@
-.about {
-  color: white;
-  grid-template-columns: 30% 20px 1fr;
+.portfolio {
+  grid-template-columns: 20% 20px 1fr;
 }
 
-.about-header {
+.portfolio-header {
   grid-column: 1/2;
+  grid-row: 1/2;
   text-align: right;
   /* padding: 20px; */
   padding: 40px;
@@ -14,12 +14,17 @@
   font-size: 2em;
 }
 
-.about-content {
+.portfolio-content {
   grid-column: 3/4;
+  grid-row: 1/2;
   /* padding: 20px; */
   padding: 40px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0;
-  font-size: 1.3em;
+  text-align: left;
+}
+
+.portfolio i {
+  font-size: 2em;
+  margin-right: 5px;
 }
