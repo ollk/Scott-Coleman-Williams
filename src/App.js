@@ -4,6 +4,7 @@ import Greeting from './components/Greeting/Greeting';
 import './App.css'
 import About from './components/About/About';
 import Divider from './components/Divider/Divider';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Greeting />
       <Divider class='greeting-line'/>
       <About />
+      <Divider class='about-line'/>
+      <Skills />
 
     </main>
   );

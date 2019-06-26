@@ -12,3 +12,7 @@
 .greeting-line {
   grid-template-columns: 30% 20px 1fr 20px 50%;
 }
+
+.about-line {
+  grid-template-columns: 30% 20px 1fr 20px 40%;
+}

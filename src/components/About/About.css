@@ -6,14 +6,20 @@
 .about-header {
   grid-column: 1/2;
   text-align: right;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0;
   font-size: 2em;
 }
 
 .about-content {
   grid-column: 3/4;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0;
   font-size: 1.3em;
 }
