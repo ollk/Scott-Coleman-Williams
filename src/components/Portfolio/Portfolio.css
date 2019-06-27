@@ -1,5 +1,6 @@
 .portfolio {
-  grid-template-columns: 20% 20px 1fr;
+  /* grid-template-columns: 20% 20px 1fr; */
+  grid-template-columns: 20% 10px 1fr;
 }
 
 .portfolio-header {

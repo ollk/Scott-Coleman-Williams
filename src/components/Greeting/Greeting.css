@@ -1,6 +1,7 @@
 .greeting {
   margin-top: 50px;
-  grid-template-columns: 1fr 20px 50%;
+  /* grid-template-columns: 1fr 20px 50%; */
+  grid-template-columns: 1fr 10px 50%;
 }
 
 #intro {

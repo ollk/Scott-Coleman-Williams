@@ -1,5 +1,6 @@
 .skills {
-  grid-template-columns: 1fr 20px 40%;
+  /* grid-template-columns: 1fr 20px 40%; */
+  grid-template-columns: 1fr 10px 40%;
 }
 
 .skills-header {

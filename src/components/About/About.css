@@ -1,6 +1,7 @@
 .about {
   color: white;
-  grid-template-columns: 30% 20px 1fr;
+  /* grid-template-columns: 30% 20px 1fr; */
+  grid-template-columns: 30% 10px 1fr;
 }
 
 .about-header {
