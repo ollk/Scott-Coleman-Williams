@@ -4,5 +4,21 @@
 
 .project-image {
   width: 80%;
+  margin: 10px 0;
 }
 
+.project-description {
+  width: 80%;
+}
+
+.project-links {
+  /* color: white; */
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.project-links a {
+  color: white;
+  text-decoration: none;
+}

@@ -9,9 +9,14 @@
   text-align: right;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0;
+  /* font-size: 2em; */
+  color: #17bebb;
+}
+
+.about-header h2 {
   font-size: 2em;
 }
 
@@ -19,8 +24,10 @@
   grid-column: 3/4;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0;
   font-size: 1.3em;
+
+  width: 80%;
 }

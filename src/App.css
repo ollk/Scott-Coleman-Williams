@@ -1,5 +1,9 @@
-body {
+* {
   background-color: black;
+  background-color: #1c1d21;
+  background-color: #141115;
+  background-color: #001011;
+  /* background-color: gray; */
 }
 
 .section {
@@ -11,4 +15,22 @@ body {
 
 .line {
   background-color: white;
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.section-header p {
+  margin-top: 5px;
+}
+
+a:hover {
+  opacity: .8;
+  /* color: #eaba6b !important; */
+  color: #17bebb !important;
+}
+
+a {
+  transition: all .5s;
 }

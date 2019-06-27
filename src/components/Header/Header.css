@@ -5,11 +5,13 @@
   right: 0;
   height: auto;
 
-  background-color: black;
+  /* background-color: black; */
   /* background-color: white; 
   color: black !important; */
   padding: 10px;
   color: white;
+
+  box-shadow: 5px 5px 10px black;
 }
 
 .main-header h1 {
