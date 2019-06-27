@@ -1,12 +1,12 @@
 .divider {
   display: grid;
-  /* height: 20px; */
-  height: 10px;
+  height: 20px;
+  /* height: 10px; */
 }
 
 .divider-line{
-  /* height: 20px; */
-  height: 10px;
+  height: 20px;
+  /* height: 10px; */
   background-color: white;
   grid-column: 2/5;
 }

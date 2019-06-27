@@ -13,13 +13,13 @@ function App() {
     <main className='App'>
       <Header />
       <Greeting />
-      <Divider class='greeting-line'/>
+      {/* <Divider class='greeting-line'/> */}
       <About />
-      <Divider class='about-line'/>
+      {/* <Divider class='about-line'/> */}
       <Skills />
-      <Divider class='skills-line' />
+      {/* <Divider class='skills-line' /> */}
       <Portfolio />
-      <Divider class='portfolio-line' />
+      {/* <Divider class='portfolio-line' /> */}
       <Contact />
 
     </main>

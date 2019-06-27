@@ -5,13 +5,18 @@
   right: 0;
   height: auto;
 
-  /* background-color: black; */
-  /* background-color: white; 
-  color: black !important; */
+  background-color: #17bebb;
+
+  /* background-color: white;  */
+  /* color: black !important; */
   padding: 10px;
   color: white;
 
-  box-shadow: 5px 5px 10px black;
+  /* box-shadow: 5px 5px 10px black; */
+}
+
+.main-header a:hover {
+  color: #001011 !important;
 }
 
 .main-header h1 {

@@ -15,11 +15,11 @@ class Skills extends Component {
           <i className="devicon-html5-plain-wordmark"></i>
           <i className="devicon-javascript-plain"></i>
           <i className="devicon-css3-plain-wordmark"></i>
-          <br/>
+          {/* <br/> */}
           <i className="devicon-express-original-wordmark"></i>
           <i className="devicon-nodejs-plain-wordmark"></i>
           <i className="devicon-postgresql-plain-wordmark"></i>
-          <br/>
+          {/* <br/> */}
           <i className="devicon-jquery-plain-wordmark"></i>
           <i className="devicon-mocha-plain"></i>
           <i className="devicon-react-original-wordmark"></i>
