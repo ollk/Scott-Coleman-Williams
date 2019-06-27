@@ -1,10 +1,12 @@
 .divider {
   display: grid;
-  height: 20px;
+  /* height: 20px; */
+  height: 10px;
 }
 
 .divider-line{
-  height: 20px;
+  /* height: 20px; */
+  height: 10px;
   background-color: white;
   grid-column: 2/5;
 }
@@ -18,5 +20,9 @@
 }
 
 .skills-line {
-  grid-template-columns: 20% 20px 1fr 20px 40%
+  grid-template-columns: 30% 20px 1fr 20px 40%
+}
+
+.portfolio-line {
+  grid-template-columns: 30% 20px 1fr 20px 40%
 }

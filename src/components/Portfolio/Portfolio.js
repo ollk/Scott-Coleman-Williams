@@ -10,7 +10,10 @@ class Portfolio extends Component {
   render() {
     return (
       <section className='section portfolio' id='projects'>
-        <h2 className='portfolio-header'>Projects</h2>
+        <div className='portfolio-header section-header'>
+          <h2>Projects</h2>
+          <p>A few of the things I've built</p>
+        </div>
         <div className='line' />
         <div className='portfolio-content'>
           <Project 

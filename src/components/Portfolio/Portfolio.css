@@ -1,5 +1,6 @@
 .portfolio {
-  grid-template-columns: 20% 20px 1fr;
+  /* grid-template-columns: 20% 20px 1fr; */
+  grid-template-columns: 30% 10px 1fr;
 }
 
 .portfolio-header {
@@ -8,9 +9,14 @@
   text-align: right;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: 0;
+  /* font-size: 2em; */
+  color: #17bebb;
+}
+
+.portfolio-header h2 {
   font-size: 2em;
 }
 
@@ -19,8 +25,8 @@
   grid-row: 1/2;
   /* padding: 20px; */
   padding: 40px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: left;
 }
 

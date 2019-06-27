@@ -6,7 +6,10 @@ class Skills extends Component {
   render() {
     return (
       <section className='section skills' id='skills'>
-        <h2 className='skills-header'>Skills</h2>
+        <div className='skills-header section-header'>
+          <h2>Skills</h2>
+          <p>Some of the tools in my belt</p>
+        </div>
         <div className='line' />
         <div className='skills-content'>
           <i className="devicon-html5-plain-wordmark"></i>
