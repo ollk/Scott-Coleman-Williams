@@ -1,0 +1,32 @@
+.project-div {
+  margin-bottom: 100px;
+}
+
+.project-image {
+  width: 80%;
+  margin: 10px 0;
+}
+
+.project-description {
+  width: 80%;
+}
+
+.project-links {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.project-links a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-image {
+    width: 90%;
+  }
+  .project-links {
+    font-size: 1.5em;
+  }
+}

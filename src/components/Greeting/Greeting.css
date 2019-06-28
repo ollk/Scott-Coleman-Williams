@@ -1,20 +1,27 @@
 .greeting {
-  margin-top: 100px;
-  grid-template-columns: 1fr 20px 50%;
+  grid-template-columns: 55% 45%;
+  background-color: white;
+  height: 100vh;
+  min-height: auto;
 }
 
 #intro {
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 1/2;
-  padding: 20px;
+  padding: 40px;
+  padding-top: 33vh;
+  color: #17bebb;
+  margin: 0;
+
+  padding-left: 0;
 }
 
 #hi {
-  font-size: 4em;
+  font-size: 5vw;
 }
 
 #name {
-  font-size: 2em;
+  font-size: 2.8vw;
 }
 
 
@@ -22,9 +29,69 @@
 .portrait-div {
   grid-column: 1/2;
   grid-row: 1/2;
-  padding: 20px;
+  padding: 40px;
+  padding-top: 22vh;
+
+  max-width: 50vw;
 }
 
 .portrait-div img {
   width: 100%;
+
+  box-shadow: 5px 5px 10px black;
+
+  /* animation: 1s ease-out 0s 1 slideInFromRight; */
+}
+
+/* @keyframes slideInFromRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+@media only screen and (max-width: 1000px) {
+  #intro {
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+
+  #hi {
+    font-size: 2em;
+  }
+  #name {
+    font-size: 1em;
+  }
+  .portrait-div {
+    padding:0;
+    margin-left: 35px;
+    padding-top: 20vh;
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #intro {
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
+
+  #hi {
+    font-size: 2em;
+  }
+  #name {
+    font-size: 1em;
+  }
+  .portrait-div {
+    padding:0;
+    margin:auto;
+    padding-top: 20vh;
+    max-width: 90%;
+  }
 }

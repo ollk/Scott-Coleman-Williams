@@ -1,14 +1,40 @@
 body {
-  background-color: black;
+  background-color: #001011;
 }
 
 .section {
   display: grid;
-  /* margin-bottom: 50px; */
-  grid-template-rows: 1fr;
   color: white;
 }
 
 .line {
   background-color: white;
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.section-header p {
+  margin-top: 5px;
+}
+
+a:hover {
+  color: #17bebb !important;
+}
+
+
+a {
+  transition: all .5s;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .line {
+      display: none;
+    }
+
+    .section {
+      display: block;
+    }
 }

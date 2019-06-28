@@ -1,0 +1,59 @@
+.contact {
+  grid-template-columns: 30% 20px 1fr;
+}
+
+.contact-header {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: right;
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0;
+  color: #17bebb;
+}
+
+.contact-header h2{
+  font-size: 2em;
+}
+
+.contact-content {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 80%;
+
+  background-color: #001011;
+}
+
+.contact-content a {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 30px;
+  background-color: #001011;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .contact-header {
+    padding-top:0;
+    padding-bottom:0;
+    text-align: left;
+  }
+  
+  .contact-content {
+    padding-top: 50px;
+  }
+  .contact-content a {
+    font-size: 1.2em;
+    font-size: 5vw;
+  }
+  .contact-content br {
+    font-size: 2em;
+  }
+}
