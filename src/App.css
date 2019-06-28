@@ -1,15 +1,9 @@
 body {
-  background-color: black;
-  background-color: #1c1d21;
-  background-color: #141115;
   background-color: #001011;
-  /* background-color: gray; */
 }
 
 .section {
   display: grid;
-  /* margin-bottom: 50px; */
-  grid-template-rows: 1fr;
   color: white;
 }
 
@@ -26,8 +20,6 @@ body {
 }
 
 a:hover {
-  /* opacity: .8; */
-  /* color: #eaba6b !important; */
   color: #17bebb !important;
 }
 
@@ -37,8 +29,12 @@ a {
 }
 
 
-@media only screen and (max-width: 800px) {
-    /* .line, .divider-line {
+@media only screen and (max-width: 1000px) {
+    .line {
       display: none;
-    } */
+    }
+
+    .section {
+      display: block;
+    }
 }

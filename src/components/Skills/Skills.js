@@ -12,17 +12,15 @@ class Skills extends Component {
         </div>
         <div className='line' />
         <div className='skills-content'>
-          <i className="devicon-html5-plain-wordmark"></i>
-          <i className="devicon-javascript-plain"></i>
-          <i className="devicon-css3-plain-wordmark"></i>
-          {/* <br/> */}
-          <i className="devicon-express-original-wordmark"></i>
-          <i className="devicon-nodejs-plain-wordmark"></i>
-          <i className="devicon-postgresql-plain-wordmark"></i>
-          {/* <br/> */}
-          <i className="devicon-jquery-plain-wordmark"></i>
-          <i className="devicon-mocha-plain"></i>
-          <i className="devicon-react-original-wordmark"></i>
+          <i className="devicon-html5-plain-wordmark first-row first-column"></i>
+          <i className="devicon-javascript-plain first-row second-column"></i>
+          <i className="devicon-css3-plain-wordmark first-row third-column"></i>
+          <i className="devicon-express-original-wordmark second-row  first-column"></i>
+          <i className="devicon-nodejs-plain-wordmark second-row second-column"></i>
+          <i className="devicon-postgresql-plain-wordmark second-row third-column"></i>
+          <i className="devicon-jquery-plain-wordmark third-row first-column"></i>
+          <i className="devicon-mocha-plain third-row second-column"></i>
+          <i className="devicon-react-original-wordmark third-row third-column"></i>
         </div>
       </section>
     );

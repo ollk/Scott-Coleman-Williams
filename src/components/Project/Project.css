@@ -22,3 +22,12 @@
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 1000px) {
+  .project-image {
+    width: 90%;
+  }
+  .project-links {
+    font-size: 1.5em;
+  }
+}

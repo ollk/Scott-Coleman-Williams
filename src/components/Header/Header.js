@@ -10,7 +10,7 @@ class Header extends Component {
         <nav className='header-nav'>
           <span><a href='#about'>about me</a></span>
           <span><a href='#skills'>skills</a></span>
-          <span><a href='#projects'>projects</a></span>
+          <span><a href='#portfolio'>portfolio</a></span>
           <span><a href='#contact'>contact</a></span>
         </nav>
       </header>

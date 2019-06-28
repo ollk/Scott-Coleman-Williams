@@ -1,64 +1,64 @@
 .contact {
-  /* grid-template-columns: 1fr 20px 40%; */
-  /* grid-template-columns: 1fr 10px 40%; */
   grid-template-columns: 30% 20px 1fr;
-
 }
 
 .contact-header {
-  /* grid-column: 3/4; */
   grid-column: 1/2;
-
   grid-row: 1/2;
-  /* text-align: left; */
   text-align: right;
-  /* padding: 20px; */
   padding: 40px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0;
-  /* font-size: 2em; */
   color: #17bebb;
-
-  /* background-color: white; */
 }
 
 .contact-header h2{
   font-size: 2em;
-
-  /* background-color: white; */
-}
-
-.contact-header p{
-  /* background-color: white; */
 }
 
 .contact-content {
-  /* grid-column: 1/2; */
   grid-column: 3/4;
-
   grid-row: 1/2;
-  /* padding: 20px; */
   padding: 40px;
   padding-top: 100px;
   padding-bottom: 100px;
-  /* text-align: right; */
   text-align: left;
-
-  /* border: solid white 20px; */
-  /* border-left: none; */
-  background-color: white;
-
+  /* background-color: white; */
   width: 80%;
+
+  background-color: #001011;
 }
 
 .contact-content a {
   font-size: 2em;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   font-weight: bold;
   text-decoration: none;
-  color: #001011;
   margin-bottom: 30px;
+  /* color: #001011;
+  background-color: white; */
 
-  background-color: white;
+  background-color: #001011;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .contact-header {
+    padding-top:0;
+    padding-bottom:0;
+    text-align: left;
+  }
+  
+  .contact-content {
+    padding-top: 50px;
+  }
+  .contact-content a {
+    font-size: 1.2em;
+    font-size: 5vw;
+  }
+  .contact-content br {
+    font-size: 2em;
+  }
 }

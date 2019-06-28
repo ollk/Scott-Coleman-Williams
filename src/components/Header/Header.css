@@ -4,13 +4,11 @@
   left: 0;
   right: 0;
   height: auto;
-
-  background-color: #17bebb;
-
-  /* background-color: white;  */
-  /* color: black !important; */
   padding: 10px;
+  background-color: #17bebb;
   color: white;
+  /* background-color: white;
+  color: #17bebb; */
 
   /* box-shadow: 5px 5px 10px black; */
 }
@@ -27,8 +25,7 @@
 
 .header-nav {
   float: right;
-  vertical-align: middle;
-  /* background-color: white; */
+  padding-top: 8px;
 }
 
 .header-nav span {
@@ -39,4 +36,12 @@
 .main-header a {
   color: white;
   text-decoration: none;
+  /* color: #001011; */
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-nav a {
+    font-size: .7em;
+  }
 }
