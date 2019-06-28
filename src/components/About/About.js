@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './About.css'
+import React, { Component } from 'react';
+import './About.css';
 
 class About extends Component {
   
@@ -12,7 +12,7 @@ class About extends Component {
         </div>
         <div className='line' />
         <p className='about-content'>
-        I recently graduated from Thinkful’s Engineering Immersion fullstack bootcamp.  I love to build I love to learn.
+        I'm a recent graduate from Thinkful’s Engineering Immersion fullstack bootcamp.  I'm a builder and a fast learner.
         <br /> <br /> 
         From legos as a kid, to working on my Jeep, to programming, I’ve been passionate about building and fixing things throughout my life.  I love web development because it provides endless opportunities to build and fix.  I love the finish-line: creating a product to be proud of, but even more I love the process of getting there: planning, iterating, problem-solving, improving.
         <br /> <br />

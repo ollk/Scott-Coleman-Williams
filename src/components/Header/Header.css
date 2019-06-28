@@ -4,15 +4,9 @@
   left: 0;
   right: 0;
   height: auto;
-
-  background-color: #17bebb;
-
-  /* background-color: white;  */
-  /* color: black !important; */
   padding: 10px;
+  background-color: #17bebb;
   color: white;
-
-  /* box-shadow: 5px 5px 10px black; */
 }
 
 .main-header a:hover {
@@ -22,21 +16,24 @@
 .main-header h1 {
   display: inline-block;
   margin: 0;
-  /* background-color: white; */
 }
 
 .header-nav {
   float: right;
-  vertical-align: middle;
-  /* background-color: white; */
+  padding-top: 8px;
 }
 
 .header-nav span {
   margin-left: 10px;
-  /* background-color: white; */
 }
 
 .main-header a {
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-nav a {
+    font-size: .7em;
+  }
 }
