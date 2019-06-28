@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import me from '../../images/me.jpg'
-import './Greeting.css'
+import React, { Component } from 'react';
+import me from '../../images/me.jpg';
+import './Greeting.css';
 
 class Greeting extends Component {
   

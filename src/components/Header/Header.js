@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import './Header.css'
+import React, { Component } from 'react';
+import './Header.css';
 
 class Header extends Component {
   
   render() {
     return (
       <header className='main-header'>
-        <h1><a href='#greeting'>SCW</a></h1>
+        <h1><a href='#greeting'>ScW</a></h1>
         <nav className='header-nav'>
           <span><a href='#about'>about me</a></span>
           <span><a href='#skills'>skills</a></span>

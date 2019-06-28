@@ -7,10 +7,6 @@
   padding: 10px;
   background-color: #17bebb;
   color: white;
-  /* background-color: white;
-  color: #17bebb; */
-
-  /* box-shadow: 5px 5px 10px black; */
 }
 
 .main-header a:hover {
@@ -20,7 +16,6 @@
 .main-header h1 {
   display: inline-block;
   margin: 0;
-  /* background-color: white; */
 }
 
 .header-nav {
@@ -30,14 +25,11 @@
 
 .header-nav span {
   margin-left: 10px;
-  /* background-color: white; */
 }
 
 .main-header a {
   color: white;
   text-decoration: none;
-  /* color: #001011; */
-
 }
 
 @media only screen and (max-width: 1000px) {
