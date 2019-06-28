@@ -12,11 +12,11 @@ class Contact extends Component {
         </div>
         <div className='line' />
         <div className='contact-content'>
-          <a href='https://www.linkedin.com/in/scott-williams-8334b2189/'>Linkedin</a>
+          <a href='https://www.linkedin.com/in/scott-williams-8334b2189/' target="_blank" rel="noopener noreferrer">Linkedin</a>
           <br/>
           <a href='https://github.com/ollk'>Github</a>
           <br/>
-          <a href='mailto:scottcolemanwilliams@gmail.com'>scottcolemanwilliams@gmail.com</a>
+          <a href='mailto:scottcolemanwilliams@gmail.com' target="_blank" rel="noopener noreferrer">scottcolemanwilliams@gmail.com</a>
         </div>
       </section>
     );

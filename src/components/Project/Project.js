@@ -7,9 +7,9 @@ class Project extends Component {
     return (
       <div className='project-div'>
         <div className='project-links'>
-          <a href={this.props.live}>{this.props.title}</a>
+          <a href={this.props.live} target="_blank" rel="noopener noreferrer" >{this.props.title}</a>
           {` / `}
-          <a href={this.props.repo}>Repo</a>
+          <a href={this.props.repo} target="_blank" rel="noopener noreferrer">Repo</a>
         </div>
         <img className='project-image' src={this.props.image} alt={this.props.title} />
         {this.props.imageTwo && 
